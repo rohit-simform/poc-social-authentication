@@ -1,0 +1,39 @@
+{
+  "name": "poc-social-authentication",
+  "version": "1.0.0",
+  "description": "It verify the access_token of social media accessiblity comes from the client  and send back the response to the client",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit-simform/poc-social-authentication.git"
+  },
+  "keywords": [
+    "social-login",
+    "social-authentication"
+  ],
+  "author": "rohit sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohit-simform/poc-social-authentication/issues"
+  },
+  "homepage": "https://github.com/rohit-simform/poc-social-authentication#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "google-auth-library": "^8.9.0",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
